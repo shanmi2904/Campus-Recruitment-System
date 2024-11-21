@@ -29,7 +29,7 @@ git clone https://github.com/shanmi2904/Campus-Recruitment-System.git
 cd campus-placement-system
 
 # Install dependencies
-npm install
+npm install (node, express, react, bottstrap)
 
 # Set up the database
 mysql -u root -p college_placement < path/campus_placement_system.sql
@@ -38,7 +38,7 @@ mysql -u root -p college_placement < path/campus_placement_system.sql
 cd backend
 node server.js
 
-# Start the frontend
+# Start the frontend(all the files that are not there in the backend folder,put the App.js in frontend, codes in frontend/src/components and the images in the frontend/src/components/homepage_img )
 cd frontend
 npm start
 
