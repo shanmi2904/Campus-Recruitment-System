@@ -1,0 +1,115 @@
+/* General Dashboard Styles */
+.dashboard-container {
+    background-color: #faf8f3; /* Light background to highlight orange theme */
+    min-height: 100vh;
+    padding: 0;
+}
+
+/* Top Navbar Styles */
+.top-navbar {
+    background-color: #f39c12; /* Bright orange for the navbar */
+    color: white;
+    padding: 10px 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+
+.top-navbar .logo {
+    width: 120px;
+    height: auto;
+    display: inline-block;
+}
+
+.logout-btn-top {
+    color: orange;
+    font-size: 14px;
+    background: none;
+    border: none;
+    cursor: pointer;
+    text-decoration: underline;
+    padding: 5px 10px;
+}
+
+.logout-btn-top:hover {
+    color: #e67e22; /* Lighter orange for hover effect */
+}
+
+/* Admin Circle Styles */
+.admin-circle-container {
+    position: relative;
+}
+
+.admin-circle {
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    background-color: #f39c12; /* Orange background */
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+    text-align: center;
+    line-height: 40px;
+    border-radius: 50%;
+    cursor: pointer;
+    margin-left: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.admin-circle:hover {
+    background-color: #e67e22; /* Lighter orange on hover */
+}
+
+.admin-circle .dropdown-menu {
+    min-width: 150px;
+    padding: 10px;
+}
+
+/* Main Content Area */
+.main-area {
+    padding: 40px;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+    color: #1e2a47;
+    font-weight: 700;
+}
+
+.admin-info-card {
+    background-color: #fdf0e0; /* Soft yellow-orange background for the card */
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.05);
+    padding: 25px;
+    margin-bottom: 30px;
+}
+
+.admin-info-card h5 {
+    color: #d35400; /* Dark orange for the header */
+    font-size: 24px;
+    font-weight: 600;
+}
+
+.admin-info-card p {
+    color: #636e72;
+    font-size: 18px;
+}
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+    .top-navbar {
+        padding: 10px 20px;
+    }
+
+    .main-area {
+        margin-left: 0;
+        padding: 20px;
+    }
+
+    .admin-info-card {
+        margin-bottom: 20px;
+    }
+}

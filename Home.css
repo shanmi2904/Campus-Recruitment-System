@@ -1,0 +1,235 @@
+/* Top bar styling */
+.top-bar {
+    background-image: url('./homepage_img/colour-bar.png');
+    background-size: cover;
+    padding: 40px 20px;
+    height: 150px;
+}
+
+/* Logo styling */
+.logo {
+    height: 150px;
+}
+
+/* Styling for navigation links */
+.navbar-nav .nav-link {
+    color: orange !important;
+    font-weight: bold;
+    margin: 0 25px;
+    font-size: 25px;
+}
+
+/* Main image styling */
+.main-image-container {
+    text-align: center;
+    margin-top: 0;
+    position: relative;
+}
+
+.main-image {
+    width: 100vw;
+    height: calc(100vh - 150px);
+    object-fit: cover;
+    display: block;
+    margin: 0;
+    opacity: 0.65;
+}
+
+/* Promo box styling */
+.promo-box {
+    position: absolute;
+    top: 50%;
+    right: 20px; /* Positions it towards the extreme right */
+    transform: translateY(-50%); /* Centers vertically */
+    background-color: rgba(0, 0, 0, 0.6);
+    color: white;
+    width: 30vw;
+    padding: 30px;
+    border-radius: 10px;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+
+/* Styling for the promo text */
+.promo-box h2 {
+    font-size: 2rem;
+    margin-top: 10px;
+    margin-bottom: 15px;
+    color: orange;
+}
+
+.promo-box p {
+    margin-top: 15px;
+    font-size: 1.1rem;
+    line-height: 1.5;
+}
+
+/* Review container styling - positioned inside promo box */
+.review-container {
+    width: 100%;
+    max-width: 320px;
+    background-color: rgba(255, 255, 255, 0.1);
+    border-radius: 8px;
+    padding: 20px;
+    margin-top: 20px;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+/* Icon styling to resemble profile pictures */
+.profile-icon {
+    font-size: 50px;
+    color: orange;
+    margin-bottom: 10px;
+}
+
+.review-content {
+    color: #ffffff;
+}
+
+.review-text {
+    font-style: italic;
+    font-size: 16px;
+    margin-bottom: 10px;
+    transition: opacity 0.5s ease-in-out;
+}
+
+.review-name {
+    font-weight: bold;
+    font-size: 14px;
+    color: orange;
+}
+
+/* About Us Section Styling */
+.about-section {
+    text-align: center;
+    padding: 40px 20px;
+    background-color: #f9f9f9; /* Light background for contrast */
+}
+
+.about-section h2 {
+    margin-bottom: 40px; /* Space below the section heading */
+    font-size: 2.5rem;
+    color: orange; /* Color to match the theme */
+}
+
+.card-container {
+    display: flex;
+    justify-content: center;
+    gap: 20px; /* Space between cards */
+}
+
+.card {
+    border: 1px solid #ddd; /* Light border around cards */
+    border-radius: 8px;
+    overflow: hidden;
+    width: 300px; /* Fixed width for cards */
+}
+
+.card-img-top {
+    width: 100%;
+    height: 180px; /* Fixed height for uniformity */
+    object-fit: cover; /* Maintain aspect ratio */
+}
+
+.card-body {
+    padding: 15px;
+}
+
+.card-text {
+    font-size: 1rem; /* Font size for card text */
+    color: #333; /* Dark color for better readability */
+}
+html {
+    scroll-behavior: smooth;
+}
+.contact-section {
+    h2{
+       color: white; 
+    }
+    background-color: orange;
+    color: white;
+    padding: 40px 20px;
+    text-align: center;
+}
+
+.contact-section h2 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+}
+
+.contact-details {
+    font-size: 1.2rem;
+    line-height: 1.8;
+}
+
+.contact-details p {
+    margin: 10px 0;
+}
+/* Quote Box styling */
+.quote-box {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: calc(100vh - 150px); /* Matches the main image height */
+    width: 20vw; /* Narrow rectangle width */
+    background-color: rgba(255, 165, 0, 0.5); /* Transparent orange */
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 20px;
+    font-size: 1.2rem;
+    font-style: italic;
+    box-shadow: 2px 0 8px rgba(0, 0, 0, 0.3);
+}
+.quote-text {
+    font-size: 1.8rem; /* Size of the text */
+    color: #ffffff; /* White text */
+    font-style: italic;
+    line-height: 1.4;
+    max-width: 300px;
+    position: relative;
+    padding-left: 40px;
+}
+
+/* Large decorative quote marks using CSS */
+.quote-text::before {
+    content: "“";
+    font-size: 10rem; /* Large quote mark */
+    color: white;
+    position: absolute;
+    left: 0;
+    top: -10px;
+    line-height: 0.8;
+}
+.modal {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.modal-content {
+    background: white;
+    padding: 20px;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.modal-content button {
+    margin: 5px;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+

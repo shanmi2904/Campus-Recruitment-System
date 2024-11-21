@@ -1,0 +1,88 @@
+/* StudentLogin.css */
+body {
+    background-color: #f7f7f7; /* Light background for the page */
+    font-family: 'Arial', sans-serif;
+}
+
+.login-container {
+    margin-top: 50px;
+    padding: 20px;
+}
+
+.login-form-container {
+    background-color: #ffffff;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+h2 {
+    color: #ff6f00; /* Orange theme */
+    margin-bottom: 20px;
+}
+
+button {
+    background-color: #ff6f00; /* Orange button */
+    color: white;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+button:hover {
+    background-color: #e65c00; /* Darker shade of orange */
+}
+
+a {
+    color: #ff6f00; /* Orange links */
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Logo Styling */
+.logo-container {
+    margin-bottom: 20px;
+}
+
+.logo {
+    max-width: 150px;
+    height: auto;
+}
+
+/* Modal Styling */
+.modal-content {
+    border-radius: 8px;
+}
+
+.modal-header {
+    background-color: #ff6f00;
+    color: white;
+    font-weight: bold;
+}
+
+.modal-body {
+    padding: 20px;
+}
+.home-button {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    background-color: orange; 
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+}
+
+.home-button:hover {
+    background-color: green; /* Darker green on hover */
+}
+
